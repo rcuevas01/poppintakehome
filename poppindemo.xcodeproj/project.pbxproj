@@ -14,6 +14,9 @@
 		4595DF4F2C23E3C000D0112E /* poppindemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4595DF4E2C23E3C000D0112E /* poppindemoTests.swift */; };
 		4595DF592C23E3C000D0112E /* poppindemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4595DF582C23E3C000D0112E /* poppindemoUITests.swift */; };
 		4595DF5B2C23E3C000D0112E /* poppindemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4595DF5A2C23E3C000D0112E /* poppindemoUITestsLaunchTests.swift */; };
+		4595DF6B2C23E3EF00D0112E /* PartyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4595DF6A2C23E3EF00D0112E /* PartyViewModel.swift */; };
+		4595DF6D2C23E3F900D0112E /* PartyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4595DF6C2C23E3F900D0112E /* PartyModel.swift */; };
+		4595DF6F2C23E40000D0112E /* PartyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4595DF6E2C23E40000D0112E /* PartyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		4595DF542C23E3C000D0112E /* poppindemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = poppindemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4595DF582C23E3C000D0112E /* poppindemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poppindemoUITests.swift; sourceTree = "<group>"; };
 		4595DF5A2C23E3C000D0112E /* poppindemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poppindemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4595DF6A2C23E3EF00D0112E /* PartyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyViewModel.swift; sourceTree = "<group>"; };
+		4595DF6C2C23E3F900D0112E /* PartyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyModel.swift; sourceTree = "<group>"; };
+		4595DF6E2C23E40000D0112E /* PartyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 		4595DF3C2C23E3BF00D0112E /* poppindemo */ = {
 			isa = PBXGroup;
 			children = (
+				4595DF672C23E3D000D0112E /* Features */,
 				4595DF3D2C23E3BF00D0112E /* poppindemoApp.swift */,
 				4595DF3F2C23E3BF00D0112E /* ContentView.swift */,
 				4595DF412C23E3C000D0112E /* Assets.xcassets */,
@@ -125,6 +132,24 @@
 				4595DF5A2C23E3C000D0112E /* poppindemoUITestsLaunchTests.swift */,
 			);
 			path = poppindemoUITests;
+			sourceTree = "<group>";
+		};
+		4595DF672C23E3D000D0112E /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				4595DF682C23E3D700D0112E /* PartyExplorer */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		4595DF682C23E3D700D0112E /* PartyExplorer */ = {
+			isa = PBXGroup;
+			children = (
+				4595DF6A2C23E3EF00D0112E /* PartyViewModel.swift */,
+				4595DF6C2C23E3F900D0112E /* PartyModel.swift */,
+				4595DF6E2C23E40000D0112E /* PartyView.swift */,
+			);
+			path = PartyExplorer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +282,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4595DF6D2C23E3F900D0112E /* PartyModel.swift in Sources */,
+				4595DF6B2C23E3EF00D0112E /* PartyViewModel.swift in Sources */,
+				4595DF6F2C23E40000D0112E /* PartyView.swift in Sources */,
 				4595DF402C23E3BF00D0112E /* ContentView.swift in Sources */,
 				4595DF3E2C23E3BF00D0112E /* poppindemoApp.swift in Sources */,
 			);
